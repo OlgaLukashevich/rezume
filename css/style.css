@@ -46,8 +46,8 @@
 .grid-container_rezume {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 4%;
+  grid-template-columns: 2fr auto;
+  grid-column-gap: 2%;
 }
 .grid-container div,
 .grid_container_rezume div {
@@ -111,12 +111,18 @@ footer {
 }
 
 .data1 {
+  display: flex;
+  align-items: flex-end;
   color: rgb(160, 160, 160);
   padding-right: 20px;
 }
 .rabota {
   width: 300px;
   height: 200px;
+}
+.raboti {
+  display: grid;
+  grid-template-columns: 200px;
 }
 .email {
   color: #b35876;
